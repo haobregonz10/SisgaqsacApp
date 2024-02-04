@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sisgaqsacapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.example.sisgaqsacapp.PrincipalActivity"
+            android:label="@string/title_activity_principal"></activity>
+        <activity android:name="com.example.sisgaqsacapp.DetalleVisitasActivity" />
+        <activity android:name="com.example.sisgaqsacapp.AgregarPaso2Activity" />
+        <activity android:name="com.example.sisgaqsacapp.AgregarPaso1Activity" />
+        <activity android:name="com.example.sisgaqsacapp.VisitasActivity" />
+        <activity android:name="com.example.sisgaqsacapp.ModificarPdvActivity" />
+        <activity android:name="com.example.sisgaqsacapp.DetallePdvActivity" />
+        <activity android:name="com.example.sisgaqsacapp.ConsultarPdvActivity" />
+        <activity android:name="com.example.sisgaqsacapp.RegistroPdvActivity" />
+        <activity android:name="com.example.sisgaqsacapp.ReporteVacioActivity" />
+        <activity android:name="com.example.sisgaqsacapp.ReporteActivity" />
+        <activity android:name="com.example.sisgaqsacapp.SinRegistrosActivity" />
+        <activity android:name="com.example.sisgaqsacapp.ResultadosLicenciaActivity" />
+        <activity android:name="com.example.sisgaqsacapp.ResultadosPlacaActivity" />
+        <activity android:name="com.example.sisgaqsacapp.ResutadosDniActivity" />
+        <activity android:name="com.example.sisgaqsacapp.BusquedaActivity" />
+        <activity android:name="com.example.sisgaqsacapp.CrearCuentaActivity" />
+        <activity android:name="com.example.sisgaqsacapp.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.sisgaqsacapp.MainActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TELCO</string>
+    <string name="placa">Placa:</string>
+    <string name="sinlicencia">Multa e inhabilitación para obtener licencia de conducir por 3 años</string>
+    <string name="licenciavencida">Multa y suspensión de la licencia de conducir por 3 años</string>
+    <string name="placanocorresponde">Multa y suspensión de la licencia de conducir por un (1) año</string>
+    <string name="sinpermiso">Multa y suspencion de licencia por 1 año</string>
+    <string name="estacionar">Multa</string>
+    <string name="detenerse">Multa</string>
+    <string name="sinplaca">Multa y Retención del vehículo</string>
+    <string name="sinsoat">Multa y Retención del vehículo</string>
+    <string name="sinluz">Multa y Retención del vehículo</string>
+    <string name="bocina">Multa</string>
+    <string name="title_activity_principal">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+</resources>
