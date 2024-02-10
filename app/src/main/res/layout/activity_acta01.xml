@@ -5,18 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context="com.example.sisgaqsacapp.MainActivity">
-
-    <ImageButton
-        android:id="@+id/img_admin"
-        android:layout_width="130dp"
-        android:layout_height="150dp"
-        android:background="@drawable/logouser"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.267" />
+    tools:context="com.example.sisgaqsacapp.Acta01Activity">
 
     <ImageView
 
@@ -75,14 +64,14 @@
         android:layout_width="336dp"
         android:layout_height="50dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="Usuario"
+        android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.96"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.562" />
+        app:layout_constraintVertical_bias="0.234" />
 
     <Button
 
@@ -124,19 +113,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <LinearLayout
-        android:id="@+id/LLFondoInicio"
-        android:layout_width="289dp"
-        android:layout_height="701dp"
-        android:background="@color/cardview_shadow_start_color"
-        android:orientation="horizontal"
-        android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.809"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"></LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

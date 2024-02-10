@@ -12,34 +12,40 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <activity
-            android:name="com.example.sisgaqsacapp.PrincipalActivity"
-            android:label="@string/title_activity_principal"></activity>
-        <activity android:name="com.example.sisgaqsacapp.DetalleVisitasActivity" />
-        <activity android:name="com.example.sisgaqsacapp.AgregarPaso2Activity" />
-        <activity android:name="com.example.sisgaqsacapp.AgregarPaso1Activity" />
-        <activity android:name="com.example.sisgaqsacapp.VisitasActivity" />
-        <activity android:name="com.example.sisgaqsacapp.ModificarPdvActivity" />
-        <activity android:name="com.example.sisgaqsacapp.DetallePdvActivity" />
-        <activity android:name="com.example.sisgaqsacapp.ConsultarPdvActivity" />
-        <activity android:name="com.example.sisgaqsacapp.RegistroPdvActivity" />
-        <activity android:name="com.example.sisgaqsacapp.ReporteVacioActivity" />
-        <activity android:name="com.example.sisgaqsacapp.ReporteActivity" />
-        <activity android:name="com.example.sisgaqsacapp.SinRegistrosActivity" />
-        <activity android:name="com.example.sisgaqsacapp.ResultadosLicenciaActivity" />
-        <activity android:name="com.example.sisgaqsacapp.ResultadosPlacaActivity" />
-        <activity android:name="com.example.sisgaqsacapp.ResutadosDniActivity" />
-        <activity android:name="com.example.sisgaqsacapp.BusquedaActivity" />
-        <activity android:name="com.example.sisgaqsacapp.CrearCuentaActivity" />
+            android:name=".Acta01Activity"
+            android:exported="false"
+            android:label="@string/title_activity_acta01"
+            android:theme="@style/AppTheme" />
         <activity
-            android:name="com.example.sisgaqsacapp.SplashActivity"
-            android:label="@string/app_name"
-            android:exported="true" >
+            android:name=".PrincipalActivity"
+            android:label="@string/title_activity_principal" />
+        <activity android:name=".DetalleVisitasActivity" />
+        <activity android:name=".AgregarPaso2Activity" />
+        <activity android:name=".AgregarPaso1Activity" />
+        <activity android:name=".VisitasActivity" />
+        <activity android:name=".ModificarPdvActivity" />
+        <activity android:name=".DetallePdvActivity" />
+        <activity android:name=".ConsultarPdvActivity" />
+        <activity android:name=".RegistroPdvActivity" />
+        <activity android:name=".ReporteVacioActivity" />
+        <activity android:name=".ReporteActivity" />
+        <activity android:name=".SinRegistrosActivity" />
+        <activity android:name=".ResultadosLicenciaActivity" />
+        <activity android:name=".ResultadosPlacaActivity" />
+        <activity android:name=".ResutadosDniActivity" />
+        <activity android:name=".BusquedaActivity" />
+        <activity android:name=".CrearCuentaActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.sisgaqsacapp.MainActivity" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
